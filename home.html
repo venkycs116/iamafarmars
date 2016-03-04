@@ -6,13 +6,10 @@
 <head>
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
-    <title>I am a Farmar</title>
+    <title>I am a Farmer</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
-    <!-- 
-    Circle Template
-    http://www.templatemo.com/tm-410-circle
-    -->
+
     <link rel="shortcut icon" type="image/png" href="images/favicon.ico"/>
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet">
 
@@ -22,9 +19,18 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/templatemo_misc.css">
     <link rel="stylesheet" href="css/templatemo_style.css">
+<style>
+ul.share-buttons{
+  list-style: none;
+  padding: 0;
+}
 
+ul.share-buttons li{
+  display: inline;
+}
+</style>
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-	<!-- templatemo 410 circle -->
+
 </head>
 <body>
     <!--[if lt IE 7]>
@@ -342,7 +348,7 @@ We provide homemade panchagavya. Panchagavya is the most powerful and organic fe
                             <div class="col-md-12">
                                 <div class="toggle-content text-center spacing" style="text-align:left;">
                                     <h3>Contact Us</h3>
-                                    <p>
+                                    <p>P.Senthil Kumar
                                     <br><strong>Phone:</strong> +91-9500153032,7871732616.
                                       <br><strong>Address:</strong> Tiruchirappalli.
                                     <!--<br><strong>Email:</strong> info@company.com | <strong>Tel:</strong> 010-020-0340--></p>
@@ -352,13 +358,10 @@ We provide homemade panchagavya. Panchagavya is the most powerful and organic fe
                          
                             
                             <div class="col-md-12">
-<div style="display:none;" id="thankyou_message">
-<font color="white" size="3"><em>Thanks</em> for contacting us!
-We will get back to you soon!</font>
-</div>
+
                                 <div class="contact-form">
                                     <div class="row">
-                                    	<form  id="gform" method="post" action="https://script.google.com/macros/s/AKfycbzifqMymVz0JOYYpuNB0twG8WjdsAfzaiKkTD6JG3Wk3D9o3mnZ/exec">
+                                    	<form  id="gform" method="post" action="send_mail.php">
                                             <fieldset class="col-md-4">
                                                 <input id="name" type="text" name="name" placeholder="Name">
                                             </fieldset>
@@ -366,7 +369,7 @@ We will get back to you soon!</font>
                                                 <input type="email" name="email" id="email" placeholder="Email">
                                             </fieldset>
                                             <fieldset class="col-md-4">
-                                                <input type="text" name="subject" id="subject" placeholder="Subject">
+                                                <input type="text" name="phno" id="phno" placeholder="Phone Number">
                                             </fieldset>
                                             <fieldset class="col-md-12">
                                                 <textarea name="message" id="message" placeholder="Message"></textarea>
@@ -393,7 +396,11 @@ We will get back to you soon!</font>
             <div class="col-md-12 footer">
                 <p id="footer-text">
                 
-                	Copyright &copy; 2016 <a href="#">iamafarmers</a>
+                	Copyright &copy; 2016 <a href="#">iamafarmers</a>&nbsp;&nbsp; Powered by <a href="http://itrentz.com/" target="_blank"><font color='blue'>iTrentz.com</font></a>&nbsp;&nbsp;
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fiamafarmers.com%2F&t=I%20am%20a%20Farmer" title="Share on Facebook" target="_blank"><img src="images/Facebook.png"></a>&nbsp;&nbsp;
+<a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fiamafarmers.com%2F&text=I%20am%20a%20Farmer:%20http%3A%2F%2Fiamafarmers.com%2F" target="_blank" title="Tweet"><img src="images/Twitter.png"></a>&nbsp;&nbsp;
+<a href="https://plus.google.com/share?url=http%3A%2F%2Fiamafarmers.com%2F" target="_blank" title="Share on Google+"><img src="images/Google+.png">&nbsp;&nbsp;
+<a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fiamafarmers.com%2F&title=I%20am%20a%20Farmer&summary=I%20am%20a%20Farmer&source=http%3A%2F%2Fiamafarmers.com%2F" target="_blank" title="Share on LinkedIn"><img src="images/LinkedIn.png"></a>
                  
                  </p>
             </div><!-- /.footer --> 
@@ -440,7 +447,6 @@ We will get back to you soon!</font>
     
     	
        
-        <script data-cfasync="false" type="text/javascript"
-src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+        
 </body>
 </html>
