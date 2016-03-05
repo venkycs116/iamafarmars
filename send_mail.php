@@ -10,4 +10,5 @@ $phno = "Phone number:".$_REQUEST['phno']."</br>";
 $message = $name.$phno."Message:".$_REQUEST['message'];
 $subject="Contact form submission"
 mail($to,$subject,$message,$from);
+echo "Mail Sent. Thank you "
 ?>
